@@ -1,0 +1,67 @@
+*.json
+
+# Byte-compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Local environment files
+.env
+*.env
+*.key
+*.crt
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~lock.*
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Git files
+.git/
+.gitignore
+
+# Docker files
+.dockerignore
+Dockerfile*
+
+# Test artifacts
+*.coverage
+htmlcov/
+*.pytest_cache/
+*.tox/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.spec
+
+# Exclude caches
+.cache/
+node_modules/
+__MACOSX/
+
+!requirements.txt
+!requirements-dev.txt
+!app/
+!main.py
