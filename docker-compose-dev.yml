@@ -3,6 +3,9 @@ services:
   jira-toolset:
     container_name: jira-toolset
     image: jira-toolset
+    build:
+      context: .
+      dockerfile: Dockerfile
     volumes:
       - ./config.json:/app/config.json
       - ./.env:/app/.env
