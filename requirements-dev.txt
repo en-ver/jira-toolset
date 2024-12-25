@@ -1,0 +1,4 @@
+jira2py
+python-dotenv
+requests
+asyncio
