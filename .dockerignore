@@ -1,4 +1,5 @@
 *.json
+.vscode/
 
 # Byte-compiled Python files
 *.pyc
