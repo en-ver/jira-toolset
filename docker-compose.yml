@@ -4,6 +4,5 @@ services:
     container_name: jira-toolset
     image: ne1ver/jira-toolset
     volumes:
-      - ./config.json:/app/config.json
-      - ./.env:/app/.env
+      - ./toolset/config:/toolset/config
     restart: unless-stopped
