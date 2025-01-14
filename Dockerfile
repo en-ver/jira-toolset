@@ -14,6 +14,7 @@ RUN apk add --no-cache \
     musl-dev \
     libffi-dev \
     openssl-dev \
+    cargo \
     && pip install --upgrade pip
 
 # Copy the requirements file and install Python dependencies
