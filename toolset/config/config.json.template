@@ -1,0 +1,75 @@
+[
+  {
+    "name": "days_in_progress",
+    "active": true,
+    "tasks": [
+      {
+        "delay": "01:30:00",
+        "jql": "project IN ('PR') AND issuetype NOT IN ('Design task', 'Epic', 'Story', 'AQA') AND status CHANGED AFTER startOfMOnth(-36)",
+        "fields":[
+          {
+            "id": "",
+            "name": "Days in DEV",
+            "statuses": [
+              "In Development",
+              "In Code Review",
+              "Ready for Release",
+              "Ready for Regression",
+              "Tech QA",
+              "In Progress",
+              "Acceptance"
+            ]
+          },
+          {
+            "id": "",
+            "name": "Days in QA",
+            "statuses": [
+              "Ready for QA",
+              "In Testing",
+              "Released",
+              "In Regression",
+              "UAT Passed"
+            ]
+          },
+          {
+            "id": "",
+            "name": "Days in Migration",
+            "statuses": ["Migration"]
+          },
+          {
+            "id": "",
+            "name": "Days in UAT",
+            "statuses": ["UAT"]
+          },
+          {
+            "id": "",
+            "name": "Days in Progress",
+            "statuses": [
+              "In Development",
+              "In Code Review",
+              "Ready for Release",
+              "Ready for Regression",
+              "Tech QA",
+              "In Progress",
+              "Acceptance",
+              "Ready for QA",
+              "In Testing",
+              "Released",
+              "In Regression",
+              "UAT Passed",
+              "Migration",
+              "UAT"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "reporting_etl",
+    "active": false,
+    "tasks": [
+      {}
+    ]
+  }
+]

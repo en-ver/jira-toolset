@@ -7,6 +7,5 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./config.json:/app/config.json
-      - ./.env:/app/.env
+      - ./toolset/config:/toolset/config
     restart: unless-stopped

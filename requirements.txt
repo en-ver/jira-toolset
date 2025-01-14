@@ -1,3 +1,4 @@
-jira2py==0.1.0
+jira2py==0.2.0
 python-dotenv==1.0.1
 requests==2.32.3
+pydantic==2.10.4
